@@ -1,0 +1,17 @@
+body {
+    background-color: aqua;
+    font-family: "poppin", sans-serif;
+    font-size: 30px;    
+    
+}
+.warna-baris {
+    background-color: yellow ;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+    border-color: aqua;
+}
+.warna-kolom {
+    background-color: green;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 30px;
+}

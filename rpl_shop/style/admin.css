@@ -1,0 +1,32 @@
+body{
+    background: #ddd;
+}
+
+.sidebar{
+    width: 250px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: #FFFFFF;
+    overflow: hidden;
+    padding-top: 20px;
+}
+.sidebar a{
+    padding: 25px;
+    text-decoration: none;
+    color: #000000;
+    font-size: 24px;
+    display: block;
+}
+
+.sidebar a:hover{
+    background: #000000;
+    color: #FFFFFF;
+}
+
+.main{
+    margin-left: 260px;
+    padding-top: 20px;
+    font-size: 24px;
+}

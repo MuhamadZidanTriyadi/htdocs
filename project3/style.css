@@ -1,0 +1,98 @@
+* { box-sizing: border-box; }
+.container {
+    background-image: url("https://www.toptal.com/designers/subtlepatterns/patterns/concrete-texture.png");
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    padding: 0 20px;
+}
+.rating {
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    overflow: hidden;
+    flex-direction: row-reverse;
+    height: 150px;
+    position: relative;
+}
+.rating-0 {
+    filter: grayscale(100%);
+}
+.rating > input {
+    display: none;
+}
+.rating > label {
+    cursor: pointer;
+    width: 40px;
+    height: 40px;
+    margin-top: auto;
+    background-image: url("data:image/svg+xml ; charset=UTF-8,%3csvg xmlns='http://www.w3.orgg/2000/svg' width='126.729'");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 76%;
+    transition: 0.3s;
+}
+.rating > input:checked ~ label, .rating > input:checked ~ label ~ label {
+    background-image: url("data:image/svg+xml; charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg'");
+}
+.rating > input:not(:checked) ~ label:hover, .rating > input:not(:checked) ~ label:hover ~ label {
+    background-image: url("data:image/svg+xml; charset=UTF-8,%3csvg xmlns='http://www.w3.org/2000/svg' width='126.729'");
+} 
+.emoji-wrapper {
+    width: 100%;
+    text-align: center;
+    height: 100px;
+    overflow: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+.emoji-wrapper:before,
+.emoji-wrapper:after{
+    content: "";
+    height: 15px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: 1;
+}
+.emoji-wrapper:before {
+    top: 0;
+    background-color: linear-gradient(to top,rgba(225,255,255,1) 0%,rgba(255,255,255,1) 35%,rgba(255,255,255,0) 100%);
+}
+.emoji {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transition: .3s;
+}
+.emoji > svg {
+    margin: 15px 0;
+    width: 70px;
+    height: 70px;
+    flex-shrink: 0;
+}
+#rating-1:checked ~ .emoji-wrapper > .emoji {
+    transform: translateY(-100px); }
+#rating-2:checked ~ .emoji-wrapper > .emoji {
+    transform: translateY(-200px); }
+#rating-3:checked ~ .emoji-wrapper > .emoji {
+    transform: translateY(-300px); }
+#rating-4:checked ~ .emoji-wrapper > .emoji {
+    transform: translateY(-400px); }
+#rating-5:checked ~ .emoji-wrapper > .emoji {
+    transform: translateY(-500px); }
+
+.feedback {
+    max-width: 360px;
+    background-color: #fff;
+    width:100%;
+    padding: 30px;
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+    box-shadow: 0 4px 30px rgba(0,0,0,.05);
+}

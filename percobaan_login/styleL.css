@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background: rgb(255, 111, 0);
+    font-family: 'Poppins', sans-serif; 
+}
+.login-box {
+    position: relative;
+    top: 205px;
+    width: 500px;
+    height: 300px;
+    border: 1px solid black;
+    margin: auto;
+    background: #fff;
+    border-radius: 15px;
+    box-sizing: border-box;
+}
+.login-box h1 {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+.login-box .user-box {
+    width: 400px;
+    height: 40px;
+    margin-left: 45px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.login-box .submit {
+    position: absolute;
+    top: 220px;
+    left: 45px;
+    border: none;
+    border-radius: 5px;
+    background: purple;
+    color: #fff;
+    width: 100px;
+    height: 40px;
+    transition: .5s;
+}
+.login-box .submit:hover {
+    background: rgba(128, 0, 128, .8);
+    transform: translateY(-10px);
+}
+.login-box a {
+    position: absolute;
+    top: 220px;
+    left: 150px;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 8px 50px;
+    background: rgb(1, 187, 1);
+    transition: .5s;
+}
+.login-box a:hover {
+    background: rgb(2, 120, 2);
+    transform: translateY(-10px);
+}

@@ -1,0 +1,50 @@
+body {
+    background: #ddd;
+    font-family: 'Poppins', sans-serif;
+}
+.container {
+    width: 400px;
+    height: 400px;
+    background: #fff;
+    margin: 75px auto;
+    border-radius: 15px;
+}
+.container h2 {
+    text-align: center;
+    padding-top: 20px;
+}
+.container h3 {
+    text-align: center;
+}
+.container form {
+    margin-top: 40px;
+}
+.container form label {
+    margin: 20px;
+}
+.container form .form-control {
+    display: block;
+    width: 350px;
+    height: 30px;
+    border-radius: 15px;
+    margin-left: 20px;
+    border: 1px solid black;
+    padding: 15px;
+    box-sizing: border-box;
+}
+.btn-login {
+    width: 350px;
+    height: 35px;
+    border-radius: 20px;
+    border: none;
+    background-color: purple;
+    color: #fff;
+    margin: 20px;
+}
+.register {
+    text-align: center;
+}
+.register a {
+    text-decoration: none;
+    color: blue;
+}

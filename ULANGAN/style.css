@@ -1,0 +1,63 @@
+.wrapper {
+    width: 1500px;
+    margin: -10px;
+    background-color: #AFEEEE;
+}
+.header{
+    background-color: gray;
+    padding-bottom: -1px;
+}
+.header .judul {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.header a{
+    text-decoration: none;
+    color: black;
+    padding: 3px;
+}
+
+.header .nav {
+    background-color: white;
+}
+
+.header .nav li {
+    display: inline-block;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.sidebar{
+    background-color: lightskyblue;
+    height: 50px;
+    width: auto;
+    padding-bottom: 460px;
+
+}
+
+.sidebar a {
+    text-decoration: none;
+    padding: 30px;
+    
+}
+
+.content{
+    background-color: black;
+    color: white;
+    margin-left: 370px;
+    margin-top: -550px;
+    padding-bottom: 470px;
+    margin-bottom: 20px;
+}
+
+.footer {
+    background-color: gray;
+    margin-top: -20px;
+}
+
+.footer .copy {
+    color : white;
+    text-align: center;
+    font-size: 12px;
+}
